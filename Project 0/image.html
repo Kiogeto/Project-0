@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>search</title>
+    </head>
+    <style>
+        .navbar{
+            background-color: rgb(147, 135, 117);
+            height: 80px;
+        }
+        .navbar ul{
+            list-style: none;
+            float: right;
+            padding-right: 50px;
+            
+        }
+        .navbar ul li{
+            display: inline-block;
+            padding-right: 50px;
+            padding: 10px;
+    
+        }
+        .navbar ul li a{
+            text-decoration: none;
+            color: rgb(4, 78, 39);
+            padding: 20px;
+            transition: 1.5s;
+            font-size: 25px;
+            font-style: italic;
+            font-weight: bolder;
+            
+        }
+        .navbar ul li:hover{
+            background-color: antiquewhite;
+            color: brown;
+            transition: 0.5s;
+        }
+        form{
+            margin-left: 600px;
+            margin-top: 150px;
+        }
+        h1{
+            padding-left: 350px;
+            color: rgb(8, 216, 235);
+            font-size: 50px;
+            font-style: italic;
+            font-weight: bolder;
+        }
+        form {
+            max-width: 500px;
+            margin: 20px auto;
+            background-color: #53366b;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+        }
+        input[type="text"]{
+            width: 300px;
+            height: 30px;
+            border-radius: 5px;
+        }
+        input[type="submit"]{
+            height: 30px;
+            background-color: rgb(117, 146, 137);
+            border-radius: 5px;
+            font-size: 20px;
+            font-style: italic;
+            color: rgb(97, 4, 96);
+            text-align: center;
+        }
+        body{
+            background-image: url(pic/p2.jpeg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 100vh;
+        }
+        img{
+            height: 100px;
+            width: 300px;
+            padding-left: 600px;
+            padding-top: 50px;
+
+        }
+    </style>
+    <body>
+        <nav>
+            <div class="navbar">
+                <ul>
+                    <li><a href="index.html">Google search</a></li>
+                    <li><a href="image.html">Google image search</a></li>
+                    <li><a href="advanced.html">Google advanced search</a></li>
+                </ul>
+            </div>
+            <img src="pic/Google_2015_logo.svg.png">
+              <h1>welcome to our google image search page</h1>
+                        <form action="https://www.google.com/search">
+                          <input type="text" name="q" placeholder="search for image in google...">
+                          <input type="hidden" name="tbm" value="isch">
+                          <input type="submit" value="google search">
+
+                    </form>
+                
+            </div>
+        </nav>
+        
+    </body>    
+</html>
